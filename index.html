@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">	  
+		<title>NEOZONE - NFT Marketplace on Blast</title>
+		<link href="https://fonts.googleapis.com/css2?family=Iceland&display=swap" rel="stylesheet">
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script type="module" crossorigin src="/assets/index-DmQP4PIA.js"></script>
+	</head>
+	<style>
+		body {
+			font-family: 'Iceland', sans-serif;
+		}
+
+
+		/* Define the fade-in animation */
+		@keyframes fadeIn {
+			from { opacity: 0; }
+			to { opacity: 1; }
+		}
+
+		/* Apply the animation to your div */
+		#fadeInDiv {
+			opacity: 0; /* Start fully transparent */
+			animation: fadeIn 5s forwards; /* Use the animation, lasting for 3 seconds */
+		}
+	</style>
+	<body>
+		<div class="relative flex justify-center max-w-screen-2xl h-full">
+			<canvas class="" id="canvas"></canvas>
+
+			<div id="fadeInDiv" class="absolute flex flex-col self-center items-center justify-center mx-auto my-auto z-10 bg-[#1F202E]  bg-opacity-70 rounded-lg md:gap-[20px] gap-[20px] md:pt-[50px] sm:pt-[40px] pt-[50px] md:pb-[30px] sm:pb-[20px] pb-[30px] md:px-[50px] sm:px-[30px] w-full">
+				<img class="xl:h-[35px] md:h-[30px] sm:h-[30px] h-[25px] inline-block" src="/assets/NEOzone-Xqtgr5oC.svg"/>
+				<div class="flex  sm:flex-row flex-col xl:text-4xl md:text-3xl sm:text-2xl text-2xl font-bold text-[#54EAF4] gap-[7px]">
+					<span>NFT Marketplace</span>
+					<span>
+						<span class="text-[#9295BF]">and</span>
+						<span>NFT Launchpad <span class="text-[#9295BF]">on</span> Blast</span>
+					 </span>
+				</div>
+				<span class="xl:text-2xl md:text-xl sm:text-lg text-xl  text-[#E8E9F5] md:my-[10px] sm:my-[5px] my-[15px]">
+					<span>Mainnet live on </span>
+					<span class="font-bold">April 2024</span>
+				</span>
+				<div class="flex gap-[25px] md:mt-[8px] mt-[5px]">
+					<a href="" target="_blank">
+						<img class="sm:h-[20px] h-[16px] inline-block" src="data:image/svg+xml,%3csvg%20width='29'%20height='30'%20viewBox='0%200%2029%2030'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M2.63636%200C1.17977%200%200%201.22045%200%202.72727V27.2727C0%2028.7795%201.17977%2030%202.63636%2030H26.3636C27.8202%2030%2029%2028.7795%2029%2027.2727V2.72727C29%201.22045%2027.8202%200%2026.3636%200H2.63636ZM6.12749%206.81818H12.2061L15.7538%2012.065L20.1435%206.81818H22.0564L16.6137%2013.3381L23.2716%2023.1818H17.193L13.2565%2017.3597L8.39569%2023.1818H6.45188L12.3914%2016.084L6.12749%206.81818ZM9.06765%208.43217L17.9705%2021.5598H20.3288L11.4234%208.43217H9.06765Z'%20fill='url(%23paint0_linear_271_214)'/%3e%3cdefs%3e%3clinearGradient%20id='paint0_linear_271_214'%20x1='14.5'%20y1='0'%20x2='14.5'%20y2='30'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%23FD8900'/%3e%3cstop%20offset='0.429'%20stop-color='%23F9BC20'/%3e%3cstop%20offset='1'%20stop-color='%23FCFA93'/%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e"/>
+					</a>
+					<a>
+						<img class="sm:h-[20px] h-[16px] inline-block" src="data:image/svg+xml,%3csvg%20width='38'%20height='29'%20viewBox='0%200%2038%2029'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M32.1633%202.43149C29.7043%201.3047%2027.0854%200.474437%2024.3266%200C23.9867%200.593046%2023.5869%201.40354%2023.327%202.05589C20.4082%201.62099%2017.5094%201.62099%2014.6506%202.05589C14.3707%201.40354%2013.9709%200.593046%2013.631%200C10.8722%200.474437%208.25328%201.3047%205.7943%202.43149C0.836369%209.82479%20-0.503073%2017.0402%200.156652%2024.137C3.45528%2026.5685%206.63395%2028.0314%209.77264%2029C10.5523%2027.9523%2011.232%2026.8255%2011.8318%2025.6592C10.6923%2025.244%209.61271%2024.7103%208.59314%2024.0975C8.87302%2023.8998%209.13291%2023.6824%209.3928%2023.4847C15.6502%2026.3708%2022.4274%2026.3708%2028.6048%2023.4847C28.8647%2023.7021%2029.1246%2023.8998%2029.4044%2024.0975C28.3849%2024.7103%2027.2853%2025.2243%2026.1658%2025.6592C26.7655%2026.8255%2027.4453%2027.9523%2028.2249%2029C31.3636%2028.0314%2034.5623%2026.5685%2037.8409%2024.137C38.6206%2015.8937%2036.5015%208.75731%2032.2033%202.43149H32.1633ZM12.6714%2019.788C10.7922%2019.788%209.25286%2018.0682%209.25286%2015.953C9.25286%2013.8378%2010.7522%2012.118%2012.6714%2012.118C14.5906%2012.118%2016.11%2013.8378%2016.09%2015.953C16.09%2018.0484%2014.5906%2019.788%2012.6714%2019.788ZM25.2862%2019.788C23.4069%2019.788%2021.8676%2018.0682%2021.8676%2015.953C21.8676%2013.8378%2023.367%2012.118%2025.2862%2012.118C27.2054%2012.118%2028.7247%2013.8378%2028.7047%2015.953C28.7047%2018.0484%2027.2054%2019.788%2025.2862%2019.788Z'%20fill='url(%23paint0_linear_271_215)'/%3e%3cdefs%3e%3clinearGradient%20id='paint0_linear_271_215'%20x1='19'%20y1='0'%20x2='19'%20y2='29'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%23FD8900'/%3e%3cstop%20offset='0.429'%20stop-color='%23F9BC20'/%3e%3cstop%20offset='1'%20stop-color='%23FCFA93'/%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e"/>
+					</a>
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>
